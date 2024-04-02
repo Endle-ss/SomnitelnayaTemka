@@ -1,0 +1,15 @@
+﻿<Window x:Class="TestCreator.Regnulsa"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestCreator"
+        mc:Ignorable="d"
+        Background="Aquamarine"
+        Title="Regnulsa" Height="450" Width="800">
+    <Grid>
+        <Button Content="Выйди" Click="Ehit" FontFamily="Comic Sans MS" Background="Azure" FontSize="20" Margin="0,0,623,384"/>
+        <Button Content="Редактим" Click="Redact" FontFamily="Comic Sans MS" Background="Azure" FontSize="20" Margin="177,0,311,384"/>
+        <Button Content="Проходим тосты" Click="Ehit" FontFamily="Comic Sans MS" Background="Azure" FontSize="20" Margin="489,0,0,384" />
+    </Grid>
+</Window>
